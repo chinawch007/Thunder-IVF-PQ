@@ -1,5 +1,5 @@
 use rand::Rng;
-use Thunder_IVF_PQ::get_centroids;
+use Thunder_IVF_PQ::kmeans::get_centroids;
 
 fn main() {
     let mut r = rand::thread_rng();
